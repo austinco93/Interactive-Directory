@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.shakabreaux.corotanfinalproject.DirectoryActivity">
+    <item
+        android:id="@+id/action_search"
+        android:title="Search Faculty"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+</menu>
